@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     padding: 24px;
+    background-color: #555;
+    color: #ffffff;
 }
 .card {
     max-width: 420px;

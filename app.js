@@ -6,7 +6,7 @@ const saida = document.getElementById("saida");
 
 function lerNumero(input) {
 const v = Number (input.value);
-if (!input.value|| Number.isnan(v)) return null;
+if (!input.value|| Number.isNaN(v)) return null;
 return v;
 }
 
@@ -21,5 +21,5 @@ return;
 }
 
 const media = (a + b + c) /3;
-saida.textContent = `media: ${media.tofixed()}`;
+saida.textContent = `Media: ${media.toFixed()}`;
 });
